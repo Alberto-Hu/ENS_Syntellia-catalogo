@@ -3,148 +3,315 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo Digital - Syntellia</title>
+    <title>Syntellia - Automatización Inteligente de Redes Sociales</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
+    <!-- ===================== Encabezado ===================== -->
+    <header>
+        <div class="container header-container-flex">
+            <a href="#hero" class="logo">Syntellia</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#why-syntellia">Nuestra IA</a></li>
+                    <li><a href="#pricing-plans">Planes</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#freemium-plan-anchor" class="btn btn-outline">Prueba Gratis</a>
+            </div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
     <!-- ===================== Sección Principal (Hero) ===================== -->
     <section id="hero">
-        <div class="container">
-            <h1>Syntellia: La Inteligencia Artificial que Transforma tu Estrategia en Redes Sociales</h1>
-            <p>Ahorra tiempo, impulsa tu engagement y consigue resultados reales con la automatización más avanzada del mercado.</p>
-
-            <img src="images/syntellia-hero-banner.png" alt="Banner principal de Syntellia mostrando la plataforma en acción" class="hero-image-placeholder">
-
-            <div class="cta-buttons">
-                <button>Probar Plan Freemium</button>
-                <button class="secondary">Solicitar Demo / Ver Planes</button>
+        <div class="container hero-container-flex">
+            <div class="hero-text">
+                <h1>Syntellia: La Inteligencia Artificial que Transforma tu Estrategia en Redes Sociales</h1>
+                <p class="justified-text">Ahorra tiempo, impulsa tu engagement y consigue resultados reales con la automatización más avanzada del mercado. Descubre cómo nuestra tecnología puede optimizar cada aspecto de tu presencia online.</p>
+                <div class="cta-buttons">
+                    <a href="#freemium-plan-anchor" class="btn btn-primary">Comienza Gratis Ahora</a>
+                    <a href="#pricing-plans" class="btn btn-secondary">Ver Planes Premium</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-mockup">
+                    <i class="fas fa-cogs fa-5x"></i>
+                    <p>Interfaz intuitiva de Syntellia</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ===================== Sección de Prueba Social Inicial ===================== -->
-    <section id="social-proof" class="container">
-        <h2>Confían en Syntellia</h2>
+    <section id="social-proof" class="container-tight">
+        <h2>Con la Confianza de Profesionales</h2>
         <div class="client-logos">
-            <div class="logo-placeholder">Logo 1</div>
-            <div class="logo-placeholder">Logo 2</div>
-            <div class="logo-placeholder">Logo 3</div>
-            <!-- Añade más si es necesario -->
+            <div class="logo-item"><i class="fab fa-staylinked"></i><span>Startup Innovadora</span></div>
+            <div class="logo-item"><i class="fab fa-reacteurope"></i><span>Agencia Creativa</span></div>
+            <div class="logo-item"><i class="fab fa-digital-ocean"></i><span>PYME Digital</span></div>
+            <div class="logo-item"><i class="fas fa-store"></i><span>E-commerce Exitoso</span></div>
         </div>
-        <p>Más de X Usuarios Activos Confían en Syntellia.</p>
-        <p>Clientes de Syntellia experimentan un promedio de X% de mejora en engagement en 3 meses.</p>
+        <div class="metrics-showcase">
+            <div class="metric-item">
+                <h3><i class="fas fa-users"></i> +1,200</h3>
+                <p>Usuarios Satisfechos</p>
+            </div>
+            <div class="metric-item">
+                <h3><i class="fas fa-chart-line"></i> 25%</h3>
+                <p>Incremento en Engagement</p>
+            </div>
+            <div class="metric-item">
+                <h3><i class="fas fa-clock"></i> 7+ Horas</h3>
+                <p>Ahorradas Semanalmente</p>
+            </div>
+        </div>
     </section>
 
     <!-- ===================== Sección "Por qué Syntellia" / "Nuestra IA" ===================== -->
-    <section id="why-syntellia" class="container">
-        <h2>Por qué elegir Syntellia</h2>
-        <p>En el dinámico mundo de las redes sociales, destacar requiere más que simple presencia. Syntellia combina la automatización eficiente con algoritmos de IA de vanguardia para ayudarte a entender a tu audiencia, crear contenido impactante y publicar en el momento exacto para maximizar tu alcance y conversión. Supera las limitaciones de las herramientas tradicionales y libera el verdadero potencial de tu marca online.</p>
-        <p>Nuestra innovación reside en la utilización de algoritmos avanzados de IA, que optimizan los horarios de publicación y ofrecen recomendaciones en tiempo real, superando las funcionalidades tradicionales de plataformas como Hootsuite o Buffer.</p>
-
-        <div class="feature-visual-placeholder" style="height: 250px;">Aquí irá un diagrama o visual explicando el funcionamiento clave de la IA</div>
+    <section id="why-syntellia" class="container-tight">
+        <h2>La Diferencia Syntellia: Automatización con Inteligencia Real</h2>
+        <div class="why-syntellia-content">
+            <div class="text-content">
+                <p class="justified-text">En el dinámico mundo de las redes sociales, destacar requiere más que simple presencia. Syntellia fusiona la eficiencia de la automatización con algoritmos de IA de vanguardia para ayudarte a entender a tu audiencia, crear contenido impactante y publicar en el momento exacto para maximizar tu alcance y conversión.</p>
+                <p class="justified-text">Nuestra innovación reside en la utilización de algoritmos avanzados de IA, que optimizan horarios de publicación, sugieren contenido y ofrecen recomendaciones en tiempo real, superando las funcionalidades tradicionales. Libera el verdadero potencial de tu marca online.</p>
+            </div>
+            <div class="ia-diagram-placeholder">
+                <i class="fas fa-brain fa-4x"></i>
+                <h4>IA Integrada</h4>
+                <p>Programación, Creación y Análisis Inteligente en una sola plataforma.</p>
+            </div>
+        </div>
     </section>
 
     <!-- ===================== Sección General de Características / Producto ===================== -->
-    <section id="features" class="container">
-        <h2>Explora las Potentes Funcionalidades de Syntellia</h2>
-        <p>Nuestra plataforma integral te ofrece las herramientas que necesitas para gestionar y optimizar tu presencia en redes sociales de manera inteligente.</p>
+    <section id="features" class="container-tight">
+        <h2>Explora las Funcionalidades Clave de Syntellia</h2>
+        <p class="section-subtitle justified-text">Herramientas diseñadas para potenciar tu gestión de redes sociales de manera inteligente y efectiva, permitiéndote alcanzar tus objetivos con mayor precisión y menor esfuerzo.</p>
 
-        <div class="feature-item">
-            <h3>Publicación Inteligente con IA</h3>
-            <p>Automatiza la programación de publicaciones y deja que nuestra IA encuentre los mejores momentos para publicar, optimizando tu alcance.</p>
-            <div class="feature-visual-placeholder">Gráficos de análisis de horarios o calendario</div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-calendar-check"></i></div>
+                <h3>Publicación Inteligente</h3>
+                <p>Programa y optimiza tus posts con sugerencias de horarios basadas en IA para máximo alcance.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>Creación Asistida por IA</h3>
+                <p>Genera ideas, redacta borradores y personaliza contenido con nuestro asistente inteligente.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+                <h3>Análisis Predictivo</h3>
+                <p>Obtén insights sobre rendimiento y predicciones para ajustar tu estrategia en tiempo real.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                <h3>Gestión de Interacciones</h3>
+                <p>Centraliza mensajes y comentarios, con sugerencias de respuesta IA para mayor eficiencia.</p>
+            </div>
+            <div class="feature-item">
+                 <div class="feature-icon"><i class="fas fa-users"></i></div>
+                 <h3>Colaboración en Equipo</h3>
+                 <p>Gestiona borradores, aprobaciones y roles de acceso para un trabajo en equipo fluido.</p>
+             </div>
+             <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-plug"></i></div>
+                <h3>Integraciones Clave</h3>
+                <p>Conecta Syntellia con tus plataformas sociales y herramientas de marketing favoritas.</p>
+            </div>
         </div>
-        <div class="feature-item">
-            <h3>Creación de Contenido Asistida por IA</h3>
-            <p>Genera ideas de contenido, redacta borradores optimizados y reutiliza tus posts con la ayuda de nuestro asistente inteligente.</p>
-            <div class="feature-visual-placeholder">Captura de pantalla del asistente de contenido</div>
-        </div>
-        <div class="feature-item">
-            <h3>Análisis Predictivo del Engagement</h3>
-            <p>Obtén insights profundos sobre el rendimiento de tus publicaciones y predicciones para ajustar tu estrategia en tiempo real.</p>
-            <div class="feature-visual-placeholder">Gráficos de análisis y predicciones</div>
-        </div>
-        <div class="feature-item">
-            <h3>Gestión Centralizada de Interacciones</h3>
-            <p>Responde a mensajes y comentarios desde una bandeja de entrada unificada, con posibles sugerencias de respuesta por IA.</p>
-            <div class="feature-visual-placeholder">Captura de pantalla de la bandeja de entrada</div>
-        </div>
-        <div class="feature-item">
-             <h3>Colaboración en Equipo</h3>
-             <p>Trabaja de forma eficiente con tu equipo, gestionando borradores, aprobaciones y roles de acceso.</p>
-             <div class="feature-visual-placeholder">Visual de colaboración</div>
-         </div>
     </section>
 
-    <!-- ===================== Sección Plan Freemium ===================== -->
-    <section id="freemium-plan" class="container">
-        <h2>Plan Freemium: Comienza Gratis</h2>
-        <p>Ideal para emprendedores y proyectos personales. Accede a las funcionalidades básicas de programación y análisis para dar tus primeros pasos en la gestión optimizada de redes sociales. Sin costo, sin compromiso.</p>
-        <ul>
-            <li>Programa hasta X posts al mes.</li>
-            <li>Conecta X cuentas sociales (ej. 1-2 plataformas).</li>
-            <li>Métricas básicas de rendimiento (ej. likes, comentarios).</li>
-            <li>Acceso a soporte comunitario.</li>
-            <li>Acceso limitado a sugerencias básicas de horarios optimizados por IA.</li>
-        </ul>
-        <button class="cta-button">Probar Gratis Ahora</button>
-    </section>
+    <!-- ===================== Sección Planes (Freemium y Premium combinados) ===================== -->
+    <section id="pricing-plans" class="container-tight">
+        <h2>Planes Flexibles para Impulsar tu Crecimiento</h2>
+        <p class="section-subtitle justified-text">Desde individuos hasta equipos, encuentra el plan perfecto para tus objetivos y presupuesto, con opciones escalables que se adaptan a tus necesidades cambiantes.</p>
+        <div class="pricing-grid">
+            <!-- Plan Freemium -->
+            <div class="pricing-card plan-freemium" id="freemium-plan-anchor">
+                <div class="plan-icon"><i class="fas fa-paper-plane"></i></div>
+                <h3>Plan Freemium</h3>
+                <p class="plan-tagline">Empieza Gratis, Descubre el Poder</p>
+                <p class="plan-price">Gratis Siempre</p> {/* Quitada la clase .enterprise-contact-price, se manejará con especificidad */}
+                <p class="plan-description">Ideal para probar la automatización básica y familiarizarte con la plataforma.</p>
+                <ul class="features-list">
+                    <li><i class="fas fa-check-circle"></i> Programa hasta 10 posts/mes</li>
+                    <li><i class="fas fa-check-circle"></i> Conecta 1 cuenta social</li>
+                    <li><i class="fas fa-check-circle"></i> Métricas básicas de rendimiento</li>
+                    <li><i class="fas fa-check-circle"></i> Soporte comunitario</li>
+                    <li><i class="fas fa-check-circle"></i> Sugerencias básicas de IA</li>
+                </ul>
+                <a href="#" class="btn btn-outline-alt">Comenzar Ahora</a>
+            </div>
 
-    <!-- ===================== Sección Plan Premium ===================== -->
-    <section id="premium-plan" class="container">
-        <h2>Planes Premium: Escala tus Resultados con la IA más Avanzada</h2>
-        <p>Diseñado para empresas y agencias que buscan crecimiento y eficiencia. Desbloquea el potencial completo de Syntellia con automatización ilimitada, análisis predictivo y nuestra IA de contenido de élite. Consigue un ROI real en tu estrategia digital.</p>
-        
-        <div class="plan-level">
-            <h3>Ejemplo de Nivel Premium (Pro)</h3>
-            <p>Perfecto para equipos pequeños y medianas empresas.</p>
-            <ul>
-                <li>Programación ilimitada en X plataformas.</li>
-                <li>Acceso completo al Asistente de Contenido con IA.</li>
-                <li>Análisis Predictivo y Reportes Avanzados personalizables.</li>
-                <li>Colaboración en equipo (hasta X usuarios).</li>
-                <li>Soporte Prioritario.</li>
-                <li>Algoritmos avanzados para optimización precisa de horarios.</li>
-                <li>Generación de contenido personalizado por IA.</li>
-            </ul>
-            <p><strong>Precio base: $50 USD/mes</strong></p>
-            <button class="cta-button">Ver Todos los Planes</button>
+            <!-- Plan Premium (Ejemplo Pro) -->
+            <div class="pricing-card plan-premium most-popular">
+                <div class="badge">MÁS POPULAR</div>
+                <div class="plan-icon"><i class="fas fa-star"></i></div>
+                <h3>Plan Premium Pro</h3>
+                <p class="plan-tagline">Automatización y Análisis Avanzado</p>
+                <p class="plan-price"><span>$49</span> USD/mes</p>
+                <p class="plan-description">Para profesionales y empresas que buscan resultados y eficiencia superior.</p>
+                <ul class="features-list">
+                    <li><i class="fas fa-check-circle"></i> Programación ilimitada</li>
+                    <li><i class="fas fa-check-circle"></i> Asistente de Contenido IA completo</li>
+                    <li><i class="fas fa-check-circle"></i> Análisis Predictivo Avanzado</li>
+                    <li><i class="fas fa-check-circle"></i> Colaboración (hasta 3 usuarios)</li>
+                    <li><i class="fas fa-check-circle"></i> Soporte Prioritario por Chat y Email</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Elegir Plan Pro</a>
+            </div>
+
+            <!-- Servicios Adicionales / Plan Enterprise -->
+            <div class="pricing-card plan-custom">
+                 <div class="plan-icon"><i class="fas fa-building"></i></div>
+                <h3>Plan Enterprise</h3>
+                <p class="plan-tagline">Soluciones a Medida para Agencias y Grandes Equipos</p>
+                <p class="plan-price">Contáctanos</p> {/* Quitada la clase .enterprise-contact-price */}
+                <p class="plan-description">Para necesidades específicas, volumen alto y funcionalidades personalizadas.</p>
+                <ul class="features-list">
+                    <li><i class="fas fa-check-circle"></i> Todo lo del Plan Pro, y más...</li>
+                    <li><i class="fas fa-check-circle"></i> Usuarios y Cuentas Ilimitadas</li>
+                    <li><i class="fas fa-check-circle"></i> Reportes Avanzados Personalizados</li>
+                    <li><i class="fas fa-check-circle"></i> Acceso a API y Soporte Dedicado</li>
+                    <li><i class="fas fa-check-circle"></i> Onboarding y Capacitación</li>
+                </ul>
+                <a href="#contact" class="btn btn-secondary">Solicitar Demo</a>
+            </div>
         </div>
-        <!-- Considerar añadir más niveles o una tabla comparativa aquí -->
     </section>
 
-    <!-- ===================== Sección Servicios Adicionales (Pago por Uso) ===================== -->
-    <section id="additional-services" class="container">
-        <h2>Servicios Avanzados por Demanda: Potencia tu Estrategia Puntual</h2>
-        <p>Accede a herramientas especializadas de IA y análisis profundo solo cuando las necesites. Perfectos para campañas específicas o insights detallados que requieren un análisis superior.</p>
-        <ul>
-            <li>Generación de Contenido Sofisticado con IA (ej. para campañas de lanzamiento).</li>
-            <li>Reportes de Análisis de Competencia impulsados por IA.</li>
-            <li>Auditorías de Audiencia detalladas con IA.</li>
-            <li>Acceso a APIs personalizadas.</li>
-        </ul>
-        <button class="cta-button">Consultar Servicios</button>
+    <!-- ===================== Sección de Testimonios ===================== -->
+    <section id="testimonials" class="container-tight">
+        <h2>Voces de Nuestros Usuarios Exitosos</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-author">
+                    <div class="avatar-icon"><i class="fas fa-user-tie"></i></div>
+                    <div>
+                        <h4>Ana G.</h4>
+                        <p>Directora de Marketing, TechNova</p>
+                    </div>
+                </div>
+                <blockquote>"Syntellia ha transformado nuestra estrategia de redes. La IA nos ahorra incontables horas y los resultados de engagement son notables."</blockquote>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-author">
+                     <div class="avatar-icon"><i class="fas fa-user-astronaut"></i></div>
+                    <div>
+                        <h4>Luis P.</h4>
+                        <p>Emprendedor Digital</p>
+                    </div>
+                </div>
+                <blockquote>"El plan freemium fue clave para iniciar. Ahora con Premium Pro, mi alcance y la calidad de mi contenido han mejorado drásticamente."</blockquote>
+            </div>
+        </div>
     </section>
 
-    <!-- ===================== Sección de Testimonios (Placeholder) ===================== -->
-    <section id="testimonials" class="container">
-        <h2>Lo que dicen nuestros clientes</h2>
-        <div class="feature-visual-placeholder" style="height:150px;">Placeholder para testimonios o carrusel</div>
-    </section>
-
-    <!-- ===================== Sección de Contacto (Placeholder) ===================== -->
-    <section id="contact" class="container">
-        <h2>Contáctanos</h2>
-        <div class="feature-visual-placeholder" style="height:200px;">Placeholder para formulario de contacto o información de contacto</div>
+    <!-- ===================== Sección de Contacto ===================== -->
+    <section id="contact" class="container-tight">
+        <h2>¿Listo para Empezar o Tienes Preguntas?</h2>
+        <p class="section-subtitle justified-text">Nuestro equipo está aquí para ayudarte a dar el siguiente paso en tu estrategia digital con Syntellia.</p>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Tu Nombre Completo" required>
+                <input type="email" placeholder="Tu Correo Electrónico" required>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Nombre de tu Empresa (Opcional)">
+                <select required>
+                    <option value="" disabled selected>Estoy interesado en...</option>
+                    <option value="freemium">Probar Plan Freemium</option>
+                    <option value="premium">Información de Planes Premium</option>
+                    <option value="enterprise">Soluciones Enterprise</option>
+                    <option value="duda">Consulta General</option>
+                </select>
+            </div>
+            <textarea placeholder="Escribe tu mensaje o consulta aquí..." rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        </form>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Syntellia. Todos los derechos reservados.</p>
-            <!-- Añadir enlaces de redes sociales o legales si es necesario -->
+        <div class="container footer-container-flex">
+            <div class="footer-column footer-about">
+                <div class="footer-logo">Syntellia</div>
+                <p class="justified-text">Automatización Inteligente para Redes Sociales. Simplifica tu flujo de trabajo y maximiza tu impacto digital con el poder de la IA, diseñado para negocios de todos los tamaños.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#pricing-plans">Planes</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-column footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span id="currentYear">2025</span> Syntellia. Todos los derechos reservados.</p>
+            <p class="disclaimer">Este sitio es una demostración con fines educativos. La información y servicios presentados son ilustrativos.</p>
         </div>
     </footer>
 
+    <script>
+        // Script para el menú móvil
+        const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+        const mainNav = document.querySelector('.main-nav');
+        const header = document.querySelector('header');
+
+        mobileNavToggle.addEventListener('click', () => {
+            const isExpanded = mobileNavToggle.getAttribute('aria-expanded') === 'true' || false;
+            mobileNavToggle.setAttribute('aria-expanded', !isExpanded);
+            mainNav.classList.toggle('active');
+            mobileNavToggle.querySelector('i').classList.toggle('fa-bars');
+            mobileNavToggle.querySelector('i').classList.toggle('fa-times');
+            header.classList.toggle('nav-active');
+        });
+
+        document.querySelectorAll('.main-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (mainNav.classList.contains('active')) {
+                    mobileNavToggle.setAttribute('aria-expanded', 'false');
+                    mainNav.classList.remove('active');
+                    mobileNavToggle.querySelector('i').classList.add('fa-bars');
+                    mobileNavToggle.querySelector('i').classList.remove('fa-times');
+                    header.classList.remove('nav-active');
+                }
+            });
+        });
+
+        // Script para actualizar el año del copyright
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
